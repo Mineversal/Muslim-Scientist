@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Muslim Scientist</string>
+    <string name="scientist_name">Nama Ilmuwan</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="developer_profile">Developer Profile</string>
+    <string name="developer">Azhar Rizki Zulma</string>
+    <string name="developer_mail">azhar.rizky2000@gmail.com</string>
+    <string name="check_my_site">Check My Site</string>
+    <string name="deskripsi_lengkap">Deskripsi Lengkap</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="seorang">Seorang</string>
+    <string name="era">Era</string>
+    <string name="keahlian">Keahlian</string>
+    <string name="tokoh">tokoh</string>
+    <string name="ilmuwan">ilmuwan</string>
+    <string name="muslim">Muslim</string>
+    <string name="image_splashscreen">Image_SplashScreen</string>
+    <string name="delete">Delete</string>
+</resources>

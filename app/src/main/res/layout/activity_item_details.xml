@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_item_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/photo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1">
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/name"
+                            style="@style/TextContent"
+                            android:layout_marginBottom="12dp"
+                            android:textSize="27sp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            style="@style/TextSpec.Field"
+                            android:layout_marginLeft="16dp"
+                            android:text="@string/seorang"
+                            android:textSize="19sp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/proffesion"
+                            style="@style/TextContent.Small"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginBottom="12dp"
+                            android:lineSpacingMultiplier="1"
+                            android:layout_width="140dp"
+                            android:justificationMode="inter_word"
+                            android:textSize="14sp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            style="@style/TextSpec.Field"
+                            android:layout_marginLeft="16dp"
+                            android:text="@string/era"
+                            android:textSize="19sp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/era"
+                            style="@style/TextContent.Small"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginBottom="12dp"
+                            android:lineSpacingMultiplier="1"
+                            android:layout_width="140dp"
+                            android:justificationMode="inter_word"
+                            android:textSize="14sp" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            style="@style/TextSpec.Field"
+                            android:layout_marginLeft="16dp"
+                            android:text="@string/keahlian"
+                            android:textSize="19sp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/interest"
+                            style="@style/TextContent.Small"
+                            android:layout_marginLeft="16dp"
+                            android:lineSpacingMultiplier="1"
+                            android:layout_width="140dp"
+                            android:justificationMode="inter_word"
+                            android:textSize="14sp" />
+                    </TableRow>
+                </TableLayout>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Kategori"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:orientation="horizontal">
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tokoh"
+                android:textSize="12sp" />
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ilmuwan"
+                android:textSize="12sp" />
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/muslim"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/deskripsi_lengkap"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/detail"
+            style="@style/TextContent"
+            android:layout_marginBottom="8dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingMultiplier="1"/>
+
+        <Button
+            android:id="@+id/btn_wiki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/wikipedia" />
+    </LinearLayout>
+</ScrollView>
